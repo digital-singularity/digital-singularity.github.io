@@ -1,0 +1,70 @@
+# Site setings
+name: 'Digital Singularity GmbH'
+description: ''
+meta_description: ''
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: 
+production_url: http://disingularity.com/
+#disqus: 'andreas-schrade'
+#mailchimp_url: '//exynap.us14.list-manage.com/subscribe/post?u=be36936da288eb536563e6afd&amp;id=19b27ddc9b'
+#cover_image: bc_1.jpg
+# Add your GA Tracking Id
+#ga_analytics: 'UA-54328989-1' 
+
+
+# Author
+author:
+  name: 'Digital Singularity GmbH'
+  image: 
+  greetings: 'Agency for user-centered App Development'
+  description: |
+    <strong>An agency which is designed to solve any problem you have</strong><br>
+    Digital Singularity GmbH is a software agency from Germany. We build outstanding products: consumer facing products like websites or apps as well as complex machine learning algorithms.<br>
+    There is currently a waiting list for new projects. Please get in touch with us to join the waiting list.
+
+  bio: ''
+
+# Contact form setings
+email: support@disingularity.com
+contact_page_description: "Write us a message"
+thankyou_page_description: "Thanks. Your message has been successfully sent. We will contact you as soon as possible!"
+
+# Social links
+#twitter: 
+#github: 
+#linkedin: 
+
+# Navigation
+navigation:
+  - text: About
+    url: /about/
+  - text: Privacy Policy
+    url: /privacy-policy/
+  - text: Impressum
+    url: /imprint/
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+plugins:
+  - jemoji
+
+# Pagination
+paginate: 20
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
