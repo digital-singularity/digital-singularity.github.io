@@ -2,7 +2,7 @@
 name: 'Digital Singularity GmbH'
 description: ''
 meta_description: ''
-logo: 'assets/images/logo.png'
+logo: 
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: http://disingularity.com/
@@ -20,8 +20,9 @@ author:
   greetings: 'Agency for user-centered App Development'
   description: |
     <strong>An agency which is designed to solve any problem you have</strong><br>
-    Digital Singularity GmbH is a software agency from Germany. We build outstanding products: consumer facing products like websites or apps as well as complex machine learning algorithms.<br>
-    There is currently a waiting list for new projects. Please get in touch with us to join the waiting list.
+    Digital Singularity GmbH is a software agency from Germany.<br>We build outstanding products!
+    Consumer facing products as well as complex machine learning algorithms.<br>
+    There is currently a waiting list for new projects.<br>Please get in touch with us to join the waiting list.
 
   bio: ''
 
@@ -37,8 +38,8 @@ thankyou_page_description: "Thanks. Your message has been successfully sent. We 
 
 # Navigation
 navigation:
-  - text: About
-    url: /about/
+  - text: Contact
+    url: /contact/
   - text: Privacy Policy
     url: /privacy-policy/
   - text: Impressum
